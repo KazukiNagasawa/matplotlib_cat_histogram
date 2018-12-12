@@ -1,0 +1,2 @@
+# matplotlib_cat_histogram
+Matplotlibを用いて猫画像とそのヒストグラムを同時に表示するサンプル。gridspec習作。
