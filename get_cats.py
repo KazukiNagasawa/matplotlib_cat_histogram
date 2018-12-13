@@ -27,7 +27,7 @@ ANNOTATIONS_URL = "http://www.robots.ox.ac.uk/%7Evgg/data/pets/data/annotations.
 
 class Cats(object) :
 
-    def __init__(self, data_dir = "/tmp/cat_faces") :
+    def __init__(self, data_dir = "/tmp/cat_data") :
 
         if not os.path.exists(data_dir) :
             os.makedirs(data_dir)
